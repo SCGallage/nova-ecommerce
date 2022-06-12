@@ -133,24 +133,6 @@ const Register = () => {
                         invalid={(passwdErr != null ? passwdErr : false)}
                         valid={(passwdErr != null ? !passwdErr : false)}
                         required/>
-                    </FormGroup>
-                    <FormGroup >
-                        <Label for="examplePassword">
-                        Confirm Password
-                        </Label>
-                        <Input
-                        id="examplePassword"
-                        name="password"
-                        placeholder="Confirm Password"
-                        type="password"
-                        onChange={(e) => {
-                            setConPassword(e.target.value);
-                            checkPasswordMatch();
-                            console.log(e.target.value);
-                        }}
-                        invalid={(passwdMatch != null ? passwdMatch : false)}
-                        valid={(passwdMatch != null ? !passwdMatch : false)}
-                        required/>
                         <Row style={{marginTop: '20px'}}>
                             <Col>
                                 <Button
