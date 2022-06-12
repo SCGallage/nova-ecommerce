@@ -1,0 +1,29 @@
+.addBtn {
+    margin-bottom: 20px;
+}
+
+.actionBtn {
+    font-size: 0.8rem;
+}
+
+.updateBtn {
+    margin-right: 5px;
+}
+
+.table_headings {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.mainContainer {
+    margin-top: 50px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 1.5rem 3rem;
+    background-color: #F2F2F2;
+}
+
+.table_col {
+    background-color: white;
+    border-radius: 20px;
+}

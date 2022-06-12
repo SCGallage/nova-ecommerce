@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: user
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/novasol
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+server:
+  port: 8085
