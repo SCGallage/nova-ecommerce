@@ -11,5 +11,5 @@
 
 ## Notes
 - Use npm i to install dependencies and npm start to run the development server
-- Run MySQL dump file before runnung the project
+- Run MySQL dump file before running the project
 
